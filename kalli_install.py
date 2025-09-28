@@ -59,7 +59,7 @@ def install_tor():
     run_cmd("sudo apt update && sudo apt install -y tor torbrowser-launcher")
 
 if __name__ == "__main__":
-    print("=== Kali Linux Installation Script ===")
+    print("=== Kali Linux Installation application Script ===")
     system_update()
     install_chrome()
     install_vscode()
